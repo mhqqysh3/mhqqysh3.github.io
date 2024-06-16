@@ -393,11 +393,11 @@ body {
 
 .happy {
 	position:absolute;
-	max-width: 50%;
-  left: 15%;
-	top:25vh;
+	width: 50vw;
+        left: 15vw;
+	top:25vw;
 	opacity: 1;
-	animation: happybirthdays 0s;
+	animation: happybirthdays 10s;
 	animation-delay: 0s;
 }
 @keyframes happybirthdays {

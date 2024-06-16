@@ -394,8 +394,8 @@ body {
 .happy {
 	position:absolute;
 	width: 50vw;
-        left: 15vw;
-	top:25vw;
+        left: 25vw;
+	top:20vw;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;

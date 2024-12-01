@@ -13,6 +13,7 @@ minify:
   minifyOutput: true
 
 params:
+  # fonts: ["u5cdot", "hnskrit"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Shihong Yuan's Course Note
   description: Shihong Yuan's Course Note
@@ -23,7 +24,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -41,8 +41,8 @@ params:
   tocopen: false
 
   assets:
-    disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
+    disableHLJS: false # to disable highlight.js
+    disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
@@ -53,7 +53,7 @@ params:
 
 
   label:
-    text: "Home"
+    text: "Shihong Yuan's Course Notes"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -115,8 +115,30 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 
+
+
+
+menu:
+  main:
+    - name: 📦日期归档
+      url: /archive/
+      weight: 2  
+      defaultContentLanguage: zh  # 修改默认语言为中文，在归档界面展示中文
+    - name: 🐕种类归档
+      url: /categories/
+      weight: 1
+    - name: 🏷️标签
+      url: /tags
+      weight: 3
+    - name: 🔍搜索
+      url: /search
+      weight: 4    
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+
 markup:
   highlight:
+    # anchorLineNos: true
     codeFences: true
     guessSyntax: true
     lineNos: true
@@ -124,31 +146,8 @@ markup:
     style: monokai
 
 
-menu:
-  main:
-    - identifier: archieve
-      name: categories
-      url: /categories/
-      weight: 10  
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

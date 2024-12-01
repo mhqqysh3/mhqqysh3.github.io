@@ -1,6 +1,3 @@
-:root {
-    --hljs-bg: unset;
-}
-.dark {
-    --hljs-bg: unset;
-}
+.chroma {
+    background-color: unset;
+  }

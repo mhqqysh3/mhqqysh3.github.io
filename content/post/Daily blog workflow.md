@@ -1,6 +1,6 @@
 ---
 title: "Workflows for DAILY blog"
-date: 2020-09-15T11:30:03+00:00
+date: 2024-12-01T12:31:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["Blog"]
@@ -15,9 +15,7 @@ hidemeta: false
 comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
+disableShare: true
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true

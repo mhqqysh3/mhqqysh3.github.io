@@ -1,5 +1,5 @@
 baseURL: "https://mhqqysh3.github.io/"
-title: ExampleSite
+title: Shihong Yuan's Course Note
 paginate: 5
 theme: PaperMod
 
@@ -14,8 +14,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Shihong Yuan's Course Note
+  description: Shihong Yuan's Course Note
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -28,7 +28,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -72,8 +72,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Shihong Yuan's Course Note \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Shihong Yuan's Course Note "
+    Content: This site is only for my COurse Notes sp that they will be well organised, and easy to read, without somrthing sparkling. For futhur knowing me, you could see my github page and website:[https://mhqqysh.github.io/], also you could add my wechat:[13613310122], I am willing to make friends.
 
   socialIcons:
     - name: wechat

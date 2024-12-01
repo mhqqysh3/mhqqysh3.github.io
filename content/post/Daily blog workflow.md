@@ -4,6 +4,8 @@ date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["Blog"]
+categories: ['Blog']
+
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -418,9 +420,11 @@ code . //打开vscode修改
 - 需要的obsidian的md文章打开
 - 命令行
 ```
-hugo new --kind post post/3.md
-//然后复制自己的obsidian文章进去
+hugo new --kind post post/Daily Blog .md
 ```
+- （+各种更改）vscode中复制自己的obsidian文章进去,改标题，tags
+- gitkraken view change->stage all change->descrip->commit->push
+- 等github转圈转完 大约1min 不要着急 确实没法做到几秒直接搞定，但是whatever已经可以了
 
 
 

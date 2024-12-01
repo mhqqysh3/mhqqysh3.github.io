@@ -1,5 +1,5 @@
 ---
-title: "Workflows for 'daily!' blog"
+title: "Workflows for DAILY blog"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
@@ -409,7 +409,7 @@ jobs:
 - 然后重复上面的gitkraken的步骤
 - 进入github这个repo/settings/Pages Source下面选择Github Actions 别的不用管，然后看Code红应该有一个正在旋转的红圈，等其变为绿色就可以使用了
 
-## Step4 快速写文章Workflow演
+## Step4 快速写文章Workflow
 
 - 命令行运行
 ```

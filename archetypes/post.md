@@ -8,7 +8,7 @@ date: 2024-09-15T11:30:03+00:00
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false

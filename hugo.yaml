@@ -15,8 +15,8 @@ minify:
 params:
   # fonts: ["u5cdot", "hnskrit"]
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Shihong Yuan's Course Note
-  description: Shihong Yuan's Course Note
+  title: Shihong Yuan's CourseNotes
+  description: Shihong Yuan's CourseNotes
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -53,7 +53,7 @@ params:
 
 
   label:
-    text: "Shihong Yuan's Course Notes"
+    text: "Shihong Yuan's CourseNotes"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -75,8 +75,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Shihong Yuan's Course Note "
-    Content: This site is only for my COurse Notes sp that they will be well organised, and easy to read, without somrthing sparkling. For futhur knowing me, you could see my github page and website:[https://mhqqysh.github.io/], also you could add my wechat:[13613310122], I am willing to make friends.
+    Title: "Shihong Yuan's CourseNotes Blog "
+    Content: This site is dedicated to organizing my course notes in a manner that ensures they are well-organized and easy to read without any distracting elements. If you are interested in getting to know me better, you can visit my GitHub page and personal website at https://mhqqysh.github.io/. Additionally, feel free to connect with me on WeChat at 13613310122. I am always open to making new friends.
 
   socialIcons:
     - name: wechat

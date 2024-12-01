@@ -86,11 +86,22 @@ categories: ['Blog']
 
 可能需要稍微等一会，加载字体
 
+
+参考这个
+[在 PaperMod 博客中设置自定义字体 | Aimer's Blog](https://aimerneige.com/zh/post/others/set-custom-fonts-on-papermod-site/)
+
 最终文件结构如下图片
 ![[data/web_changing/Pasted image 20241202050413.png]]
 ### code blank修改代码块样式🐕
 
+
+其实关键是前面需要写类型
+
 其实已经可以了，虽然效果不是特别好，但是可以发现已经有了
+
+最后就是看这个的后面
+[FAQs / How To's Guide | PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#using-hugos-syntax-highlighter-chroma)
+
 
 
 

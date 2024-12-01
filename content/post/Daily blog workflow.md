@@ -41,7 +41,7 @@ editPost:
 ---
 
 ## Step1 本地下载
-```
+```shell
 cd D:\YSH\My_BLOG1\2
 hugo new site quickstart --format yaml
 cd quickstart
@@ -57,7 +57,7 @@ cd D:\YSH\My_BLOG1\mhqqysh3.github.io
 修改hugo.yaml，链接theme
 - 修改line1为你自己的github网站名字.github.io
 - 其他行照着下面复制就行，我的文如下
-```
+```yaml
 baseURL: "https://mhqqysh3.github.io/"
 title: ExampleSite
 paginate: 5
@@ -197,7 +197,7 @@ markup:
     # style: monokai
 ```
 
-```
+```shell
 hugo server现在是可以看的localhost
 ```
 ![[Pasted image 20241202010753.png|300]]
@@ -207,7 +207,7 @@ hugo server现在是可以看的localhost
 ## Step2 配置一键生成文章
 
 - 设置一个template,创建archetypes/post.md内容复制下面就行
-```
+```yaml
 ---
 title: "My 1st post"
 date: 2020-09-15T11:30:03+00:00
@@ -247,12 +247,12 @@ editPost:
 ---
 ```
 - 运行命令如下，可以创建一个名字为1.md，模板为post.md的文件
-```
+```shell
 hugo new --kind post post/1.md
 ```
 
 - 同样的道理，如果你需要第二个模板，首现在archetypes/post2.md贴入内容
-```
+```yaml
 ---
 title: "My 2st post"
 date: 2020-09-15T11:30:03+00:00
@@ -292,11 +292,11 @@ editPost:
 ---
 ```
 - 然后运行如下命令，就会有遵循第二个模板的文件生成
-```
+```shell
 hugo new --kind post2 post/2.md
 ```
 - 看看效果（补充一下，如果用两个命令行窗口，一个用来执行命令，一个待机着hugo server可以无延迟看变化）
-```
+```shell
 hugo server现在是可以看的localhost
 ```
 
@@ -319,7 +319,7 @@ hugo server现在是可以看的localhost
 	以后你上传的时候其实就是用这几个命令
 - 然后打开你的github可以看到已经传上去了，但是网站build失败，这是因为你只提供了源文件，hugo网站的编译需要自己的一些环境配置，而这些是没有的
 - 所以下一步你需要让github在build的时候先下载hugo然后各种步骤，这些已经被写成了脚本，你只需要新建一个.github/workflows/hugo.yaml,里面填充下面的内容，无需更改
-```
+```yaml
 name: Deploy Hugo site to Pages
 
 on:
@@ -410,14 +410,14 @@ jobs:
 ## Step4 快速写文章Workflow
 
 - 命令行运行
-```
+```shell
 cd D:\YSH\My_BLOG1\WebsiteUpdate
 code . //打开vscode修改
 ```
 - gitkraken打开websiteupdate
 - 需要的obsidian的md文章打开
 - 命令行
-```
+```shell
 hugo new --kind post post/Daily Blog .md
 ```
 - （+各种更改）vscode中复制自己的obsidian文章进去,改标题，tags

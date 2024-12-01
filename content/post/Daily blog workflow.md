@@ -27,7 +27,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
+    image: "https://raw.githubusercontent.com/mhqqysh3/mhqqysh3.github.io/refs/heads/main/data/Daily%20blog%20workflow/avator.jpg" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true

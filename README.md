@@ -7,3 +7,6 @@ My name is Shihong Yuan, a 2023 ZJUer & UIUCer My personal github is https://git
 2. 。。。
 
 
+I want to commit this one everyday but the difficulties are
+1. how to add pictures easitly
+2. how to submit here but also change in the other

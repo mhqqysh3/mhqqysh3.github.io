@@ -20,3 +20,5 @@ I want to commit this one everyday but the difficulties are
 
 现在的问题是
 1. 我忘记了本地需要建立的除git还有什么
+
+2

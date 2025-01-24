@@ -2,43 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shihong Yuan&#39;s Course Note</title>
-    <link>http://localhost:5268/</link>
+    <link>http://localhost:9409/</link>
     <description>Recent content on Shihong Yuan&#39;s Course Note</description>
     <image>
       <title>Shihong Yuan&#39;s Course Note</title>
-      <url>http://localhost:5268/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:5268/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:9409/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:9409/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.139.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 23 Jan 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:5268/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:9409/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025年一月时间记录</title>
+      <link>http://localhost:9409/post/2025-01%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 01 Jan 2025 11:30:03 +0000</pubDate>
+      <guid>http://localhost:9409/post/2025-01%E6%97%B6%E9%97%B4%E8%AE%B0%E5%BD%95/</guid>
+      <description>Desc Text.</description>
+    </item>
     <item>
       <title>CMU10-414 Assigenment</title>
-      <link>http://localhost:5268/post/cmu10-174/</link>
+      <link>http://localhost:9409/post/cmu10-174/</link>
       <pubDate>Thu, 23 Jan 2025 11:30:03 +0000</pubDate>
-      <guid>http://localhost:5268/post/cmu10-174/</guid>
+      <guid>http://localhost:9409/post/cmu10-174/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>CMU10-414 lecture</title>
-      <link>http://localhost:5268/post/cmu10-414-lecture/</link>
+      <link>http://localhost:9409/post/cmu10-414-lecture/</link>
       <pubDate>Thu, 23 Jan 2025 11:30:03 +0000</pubDate>
-      <guid>http://localhost:5268/post/cmu10-414-lecture/</guid>
+      <guid>http://localhost:9409/post/cmu10-414-lecture/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>Web Changing</title>
-      <link>http://localhost:5268/post/web_changing/</link>
+      <link>http://localhost:9409/post/web_changing/</link>
       <pubDate>Tue, 03 Dec 2024 11:32:03 +0000</pubDate>
-      <guid>http://localhost:5268/post/web_changing/</guid>
+      <guid>http://localhost:9409/post/web_changing/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>Workflows for DAILY blog</title>
-      <link>http://localhost:5268/post/daily-blog-workflow/</link>
+      <link>http://localhost:9409/post/daily-blog-workflow/</link>
       <pubDate>Sun, 01 Dec 2024 12:31:03 +0000</pubDate>
-      <guid>http://localhost:5268/post/daily-blog-workflow/</guid>
+      <guid>http://localhost:9409/post/daily-blog-workflow/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>

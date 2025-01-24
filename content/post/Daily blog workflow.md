@@ -3,10 +3,10 @@ title: "Workflows for DAILY blog"
 date: 2024-12-01T12:31:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["Blog"]
-categories: ['Blog']
-
+tags: ["网站"]
 author: "Me"
+
+
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: true

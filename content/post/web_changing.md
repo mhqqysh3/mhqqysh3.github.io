@@ -1,10 +1,10 @@
 ---
 title: "Web Changing"
-date: 2024-12-01T11:32:03+00:00
+date: 2024-12-03T11:32:03+00:00
 # weight: 1
 # aliases: ["/first"]
-# tags: ["first"]
-categories: ['Blog']
+tags: ["网站"]
+
 
 author: "Me"
 # author: ["Me", "You"] # multiple authors

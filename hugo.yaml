@@ -122,17 +122,17 @@ menu:
   main:
     - name: 📦日期归档
       url: /archive/
-      weight: 2  
+      weight: 1  
       defaultContentLanguage: zh  # 修改默认语言为中文，在归档界面展示中文
-    - name: 🐕种类归档
-      url: /categories/
-      weight: 1
+    # - name: 🐕种类归档
+    #   url: /categories/
+    #   weight: 3
     - name: 🏷️标签
       url: /tags
-      weight: 3
-    - name: 🔍搜索
-      url: /search
-      weight: 4    
+      weight: 2
+    # - name: 🔍搜索
+    #   url: /search
+    #   weight: 4    
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 

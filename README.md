@@ -24,6 +24,8 @@ git clone下来问题
 1. 需要先把theme里面的文件删掉，然后在git submodule update
 2. 不能有两个readme.md
 
+其他问题
+1. 改完文件其实就可以网站响应 因为github workflow里面有这个过程
 
 更新步骤
 1. 打开文件夹,终端

@@ -20,9 +20,10 @@ I want to commit this one everyday but the difficulties are
 
 
 git clone下来问题
-1. git kraken 设置-》integrations->github->生成新的，然后连接
+1. git kraken 设置-》integrations->github->生成新的，然后连接【已经不用】
 1. 需要先把theme里面的文件删掉，然后在git submodule update
 2. 不能有两个readme.md
+4. 现在vscode连接github唯一的问题就是有时候连不上网络，感觉就是本地克隆一个验证一下已经可以连接上了
 
 其他问题
 1. 改完文件其实就可以网站响应，就是不需要本地hugo server 因为github workflow里面有这个过程

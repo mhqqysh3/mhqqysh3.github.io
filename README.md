@@ -32,4 +32,7 @@ git clone下来问题
 2. hugo new --kind post post/1.md 
 3. hugo server然后本地看着修改
 4. vscode里面保存（包括了view change等等）
-5. git kraken pull
+5. https://zhuanlan.zhihu.com/p/624521466 然后本地克隆一个验证一下已经可以连接上了，之后就可以随意vscode pull了，不需要gitkraken了
+
+
+

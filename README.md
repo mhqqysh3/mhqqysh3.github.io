@@ -18,6 +18,21 @@ I want to commit this one everyday but the difficulties are
 2. how to submit here but also change in the other
 
 
+现在急需搞定的事情
+1. cuda怎么学
+2. 这两个课程怎么学起来，代码怎么快跑起来
+
+
+
+
+
+
+
+
+
+
+
+
 
 git clone下来问题
 1. git kraken 设置-》integrations->github->生成新的，然后连接【已经不用】

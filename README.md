@@ -18,32 +18,31 @@ I want to commit this one everyday but the difficulties are
 2. how to submit here but also change in the other
 
 
+
+
 现在急需搞定的事情
 1. cuda怎么学
 2. 这两个课程怎么学起来，代码怎么快跑起来
 
 
 
-
-
-
-
-
-
-
-
-
-
-git clone下来问题
-1. git kraken 设置-》integrations->github->生成新的，然后连接【已经不用】
-1. 需要先把theme里面的文件删掉，然后在git submodule update
-2. 不能有两个readme.md
-4. 现在vscode连接github唯一的问题就是有时候连不上网络，感觉就是本地克隆一个验证一下已经可以连接上了
-5. 拉取就是点git里面循环的标志就行
-
-
-其他问题
+## 其他问题
 1. 改完文件其实就可以网站响应，就是不需要本地hugo server 因为github workflow里面有这个过程
+2. 现在vscode连接github唯一的问题就是有时候连不上网络，感觉就是本地克隆一个验证一下已经可以连接上了
+
+
+
+<!--
+git clone下来问题
+0. git kraken 设置-》integrations->github->生成新的，然后连接【已经不用】
+1. 需要先把theme里面的文件删掉，然后在git submodule update
+2. 不能有两个readme.md -->
+
+
+# 现在步骤
+1. 改文件 
+2. vscode里面提交+同步
+3. 如果要拉取就是点git里面循环的标志就行
 
 更新步骤
 1. 打开文件夹,终端

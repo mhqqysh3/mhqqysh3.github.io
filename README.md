@@ -44,12 +44,21 @@ git clone下来问题
 2. vscode里面提交+同步
 3. 如果要拉取就是点git里面循环的标志就行
 
+如果要修改 需要更新
+```git submodule update --init --recursive```
+
+
+
 更新步骤
 1. 打开文件夹,终端
-2. hugo new --kind post post/1.md 
+2. 
+```
+hugo new --kind post post/202503.md
+``` 
 3. hugo server然后本地看着修改
 4. vscode里面保存（包括了view change等等）  提交
 5. https://zhuanlan.zhihu.com/p/624521466 然后本地克隆一个验证一下已经可以连接上了，之后就可以随意vscode pull了，不需要gitkraken了
+
 
 
 突然发现

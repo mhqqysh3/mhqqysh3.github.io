@@ -61,6 +61,7 @@ hugo new --kind post post/202503.md
 
 
 
+
 突然发现
 
 1. ssh或者gitkraken加入连接 其实都不用了

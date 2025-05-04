@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>System on Shihong Yuan&#39;s Course Note</title>
-    <link>http://localhost:13448/tags/system/</link>
+    <link>https://mhqqysh3.github.io/tags/system/</link>
     <description>Recent content in System on Shihong Yuan&#39;s Course Note</description>
-    <image>
-      <title>Shihong Yuan&#39;s Course Note</title>
-      <url>http://localhost:13448/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:13448/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.139.2</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 23 Jan 2025 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:13448/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mhqqysh3.github.io/tags/system/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CMU10-414 Assigenment</title>
-      <link>http://localhost:13448/post/cmu10-174/</link>
+      <link>https://mhqqysh3.github.io/post/cmu10-174/</link>
       <pubDate>Thu, 23 Jan 2025 11:30:03 +0000</pubDate>
-      <guid>http://localhost:13448/post/cmu10-174/</guid>
-      <description>Desc Text.</description>
+      <guid>https://mhqqysh3.github.io/post/cmu10-174/</guid>
+      <description>&lt;h1 id=&#34;cmu-10-414-assignments-实验笔记&#34;&gt;CMU 10-414 Assignments 实验笔记&lt;/h1&gt;&#xA;&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;&#xA;&lt;p&gt;本文记录了完成《CMU 10-414/714 Deep Learning System》配套 Assignments 的过程和对应笔记。共有 6 个 hw，循序渐进地从头实现了一个深度学习框架，并利用搭建 DL 中厂常见的网络模型，包括 CNN、RNN、Transformer 等。&#xA;环境为 Ubuntu 24 @ WSL2。&#xA;由于官方自动评分系统目前不再接受非选课学生注册，因此本代码仅保证能够通过已有测试样例。&lt;/p&gt;&#xA;&lt;h1 id=&#34;资源存档&#34;&gt;资源存档&lt;/h1&gt;&#xA;&lt;p&gt;源码来自官方：&lt;a href=&#34;https://dlsyscourse.org/assignments/&#34;&gt;Assignments&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;所有代码均上传至 &lt;a href=&#34;https://gitee.com/littleherozzzx/cmu10-414-assignments&#34;&gt;cmu10-414-assignments: cmu10-414-assignments&lt;/a&gt;，如官网撤包，可通过 git 回滚获取原始代码。&lt;/p&gt;&#xA;&lt;h1 id=&#34;hw0&#34;&gt;hw0&lt;/h1&gt;&#xA;&lt;p&gt;第一个 homework 共需完成 7 个函数，第一个很简单，用于熟悉评测系统，直接从第二个函数开始。&lt;/p&gt;&#xA;&lt;h2 id=&#34;parse_mnist&#34;&gt;parse_mnist&lt;/h2&gt;&#xA;&lt;p&gt;这个函数签名为：&lt;code&gt;parse_mnist(image_filename, label_filename)&lt;/code&gt;，用于读取 MNIST 手写数据集。&lt;a href=&#34;http://yann.lecun.com/exdb/mnist/&#34;&gt;官网&lt;/a&gt; 对数据集格式有详细介绍，直接下拉到 FILE FORMATS FOR THE MNIST DATABASE 这部分即可。&lt;/p&gt;&#xA;&lt;p&gt;整个数据集分为训练集和测试集，包括数字图像和标签。标签文件内前 8Byte 记录了 magic number 和 number of items，之后按照每个样本占 1Byte 的格式组织。图像文件内前 16Byte 记录了非图像数据，之后按照行优先的顺序按照每个像素占 1Byte 的格式以此排布，每个图片共有 28×28 个像素点。&lt;/p&gt;&#xA;&lt;p&gt;具体实现中，使用 gzip 库按字节读取数据文件，注意整个数据集需要进行标准化，即将每个像素的灰度值除以 255。完整实现为：&lt;/p&gt;</description>
     </item>
     <item>
       <title>CMU10-414 lecture</title>
-      <link>http://localhost:13448/post/cmu10-414-lecture/</link>
+      <link>https://mhqqysh3.github.io/post/cmu10-414-lecture/</link>
       <pubDate>Thu, 23 Jan 2025 11:30:03 +0000</pubDate>
-      <guid>http://localhost:13448/post/cmu10-414-lecture/</guid>
-      <description>Desc Text.</description>
+      <guid>https://mhqqysh3.github.io/post/cmu10-414-lecture/</guid>
+      <description>&lt;h1 id=&#34;cmu-10-414-deep-learning-system学习笔记&#34;&gt;《CMU 10-414 deep learning system》学习笔记&lt;/h1&gt;&#xA;&lt;h1 id=&#34;写在最前面&#34;&gt;写在最前面&lt;/h1&gt;&#xA;&lt;p&gt;从 2024-04-28 到 2024-09-08，历时四个多月，总算把 DLSys 学完了。这门课的一些收获：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;自动微分理论知识和在实践过程中衍生的包括计算图等知识&lt;/li&gt;&#xA;&lt;li&gt;系统学习了 ML 中几个基本模型和组件&lt;/li&gt;&#xA;&lt;li&gt;Tensor 的 strides 相关内容&lt;/li&gt;&#xA;&lt;li&gt;基础 CUDA 编程&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;个人认为这门课一些没达到我预期的地方：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CUDA 编程的内容太浅&lt;/li&gt;&#xA;&lt;li&gt;后续讲 CNN、RNN、Transformer 的部分没必要，可以继续深入 CUDA 或者压缩课时&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;本门课程的核心内容在 Lecture 0&lt;del&gt;15，对应的 homework 是 hw0&lt;/del&gt;3，后面的内容没有时间可以跳过。&lt;/p&gt;&#xA;&lt;p&gt;ps：全文章两万余字，Chrome 渲染图片时可能会很卡，建议使用 Microsoft Edge 浏览。&lt;/p&gt;&#xA;&lt;h1 id=&#34;lecture-1-introduction-and-logistics&#34;&gt;Lecture 1: Introduction and Logistics&lt;/h1&gt;&#xA;&lt;h2 id=&#34;课程的目标&#34;&gt;课程的目标&lt;/h2&gt;&#xA;&lt;p&gt;本课程的目标是学习现代深度学习系统，了解包括自动微分、神经网络架构、优化以及 GPU 上的高效操作在内的技术的底层原理。作为实践，本课程将实现一个 needle（deep learning library）库，类似 PyTorch。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么学习深度学习系统&#34;&gt;为什么学习深度学习系统？&lt;/h2&gt;&#xA;&lt;p&gt;为什么学习？深度学习这一概念很早就存在了，但直到 PyTorch、TensorFlow 此类现代深度学习框架发布，深度学习才开始迅速发展。简单易用的自动差分库是深度学习发展的最大动力。&lt;/p&gt;&#xA;&lt;p&gt;除了使用这些库，我们为什么还要学习深度学习系统？&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;为了构建深度学习系统&lt;br&gt;&#xA;如果想要从事深度学习系统的开发，那毫无疑问得先学习它。目前深度学习框架并没完全成熟，还有很多开发新功能，乃至新的框架的机会。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;为了能够更高效地使用现有系统&lt;br&gt;&#xA;了解现有系统的内部实现，可以帮助我们写出更加高效的深度学习代码。如果想要提高自定义算子的效率，那必须先了解相关操作是如何实现的。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;深度学习系统本身就很有趣&lt;br&gt;&#xA;尽管这个系统看上去很复杂，但是其核心算法的原理确实相当简单的。两千行左右的代码，就可以写出一个深度学习库。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;预备知识&#34;&gt;预备知识&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;systems programming&lt;/li&gt;&#xA;&lt;li&gt;线性代数&lt;/li&gt;&#xA;&lt;li&gt;其他数学知识：计算、概率、简单的证明&lt;/li&gt;&#xA;&lt;li&gt;Python 和 C++ 经验&lt;/li&gt;&#xA;&lt;li&gt;机器学习的相关经验&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;lecture-2-ml-refresher--softmax-regression&#34;&gt;Lecture 2: ML Refresher &amp;amp; Softmax Regression&lt;/h1&gt;&#xA;&lt;h2 id=&#34;机器学习基础&#34;&gt;机器学习基础&lt;/h2&gt;&#xA;&lt;p&gt;深度学习是由数据驱动的，所谓数据驱动，这意味着当我们想要写一个用于识别手写数字的模型时，我们关注的不是某个数字形状上有什么特点，如何通过编程识别该特点，而是直接将数据集喂给模型，模型自动训练并识别数字类别。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
